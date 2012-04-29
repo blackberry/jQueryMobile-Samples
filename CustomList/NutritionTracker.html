@@ -1,0 +1,99 @@
+<!--
+ *  Copyright 2012 Research In Motion Limited.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Nutrition Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.css" />
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.js"></script>
+        <style type="text/css" media="screen">
+            .fact {
+                width: 10%;
+                display: inline-block;
+                text-align: center;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            .fact.factDescription {
+                width: 33%;
+                text-align: left;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header">
+                <h1>Create Custom List Formatting</h1>
+            </div><!-- /header -->
+            <div data-role="content">
+                <ul data-role="listview">
+                    <li data-role="list-divider">
+                        <h1 class="fact factDescription">Description</h1>
+                        <div class="fact">Calories</div>
+                        <div class="fact">Carbs</div>
+                        <div class="fact">Fat</div>
+                        <div class="fact">Protein</div>
+                        <div class="fact">Sugar</div>
+                        <div class="fact">Sodium</div>
+                    </li>
+                    <li>
+                        <h1>Kamut Puffs</h1>
+                        <p class="fact factDescription">1 cup 16g</p>
+                        <div class="fact">50</div>
+                        <div class="fact">11</div>
+                        <div class="fact">0</div>
+                        <div class="fact">2</div>
+                        <div class="fact">0</div>
+                        <div class="fact">0</div>
+                    </li>
+                    <li>
+                        <h1>Bran</h1>
+                        <p class="fact factDescription">1/3 cup 30g</p>
+                        <div class="fact">80</div>
+                        <div class="fact">22</div>
+                        <div class="fact">1</div>
+                        <div class="fact">3</div>
+                        <div class="fact">7</div>
+                        <div class="fact">200</div>
+                    <li>
+                        <h1>Banana</h1>
+                        <p class="fact factDescription">126g</p>
+                        <div class="fact">110</div>
+                        <div class="fact">30</div>
+                        <div class="fact">0</div>
+                        <div class="fact">1</div>
+                        <div class="fact">15</div>
+                        <div class="fact">1</div>
+                    </li>
+                    <li>
+                        <h1>Brown Rice</h1>
+                        <p class="fact factDescription">1.5 cup</p>
+                        <div class="fact">328</div>
+                        <div class="fact">69</div>
+                        <div class="fact">2</div>
+                        <div class="fact">7</div>
+                        <div class="fact">0</div>
+                        <div class="fact">3</div>
+                    </li>
+                </ul>
+            </div><!-- /content -->
+        </div><!-- /page -->
+    </body>
+</html>
