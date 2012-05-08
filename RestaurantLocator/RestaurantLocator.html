@@ -1,0 +1,103 @@
+<!--
+ *  Copyright 2012 Research In Motion Limited.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Restaurant Locator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="jquery.mobile.css" />
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/latest/jquery.mobile.js"></script>
+        <style type="text/css" media="screen">
+            div.ui-li-aside {
+                float: right;
+                margin: 0 1em;
+            }
+            .ui-li-aside span {
+                float: right;
+            }
+            .address {
+                margin-left: 1em;
+                margin-bottom: 1.5em;
+            }
+            .categories {
+                color: coral;
+            }
+            .rating {
+                margin-left: .3em;
+            }
+            .divider {
+                margin-top: .1em;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="content">
+                <ul data-role="listview">
+                    <li><a href="#">
+                        <h1>Maman's Bakery<hr class='divider'></h1>
+                        <p>This french style bakery will leave you will make you think you in Paris</p>
+                        <p class="address">1523 Main St, Toronto</p>
+                        <p>Categories: <span class='categories'>French, Bakery, Pastries</span></p>
+                        <div class="ui-li-aside">
+                            <h3>3.1 km NW</h3>
+                            <h4>$</h4>
+                            <span class='rating'>50 reviews</span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                        </div>
+                    </a></li>
+                    <li><a href="#">
+                        <h1>West-End Deli<hr class='divider'></h1>
+                        <p>West-End Deli has some of the best deli meats the city has to offer</p>
+                        <p class="address">82 Stevenson Ave, Toronto</p>
+                        <p>Categories: <span class='categories'>Deli</span></p>
+                        <div class="ui-li-aside">
+                            <h3>0.6 km S</h3>
+                            <h4>$</h4>
+                            <span class='rating'>3 reviews</span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <h1>Porter's House<hr class='divider'></h1>
+                        <p>Porter's House is Toronto's premier steakhouse. </p>
+                        <p class="address">210 Canrobert St, Toronto</p>
+                        <p>Categories: <span class='categories'>Fine Dining, Steakhouse</span></p>
+                        <div class="ui-li-aside">
+                            <h3>1.4 km E</h3>
+                            <h4>$$$</h4>
+                            <span class='rating'>3 reviews</span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                            <span class="ui-icon-star ui-icon"></span>
+                        </div>
+                    </a></li>
+                </ul>
+            </div><!-- /content -->
+        </div><!-- /page -->
+    </body>
+</html>

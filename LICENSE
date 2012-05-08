@@ -200,3 +200,24 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+--------------------------------------------------
+
+This software includes jQuery 
+   Copyright 2011, John Resig
+   Dual licensed under the MIT or GPL Version 2 licenses.
+   http://jquery.org/license
+  
+--------------------------------------------------
+
+This software includes Sizzle.js
+   http://sizzlejs.com/
+   Copyright 2011, The Dojo Foundation
+   Released under the MIT, BSD, and GPL Licenses.
+
+--------------------------------------------------
+
+This software includes the jQuery Mobile Framework
+  Copyright 2011 (c) jQuery Project
+  Dual licensed under the MIT or GPL Version 2 licenses.
+  http://jquery.org/license
