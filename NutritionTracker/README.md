@@ -4,7 +4,7 @@ jQuery Mobile provides some classes to assist with making a custom list but addi
 To demonstrate how to build a custom list, we are going to create the list-view of a Nutrition Tracking application.
 
 This is what we want to achieve when we are finished.
-![Nutrition Tracking App - Final Product](http://github.rim.net/jasscott/jQuery-Mobile-Samples/raw/NutritionTut/NutritionTracker/figures/final.png)
+![Nutrition Tracking App - Final Product](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/NutritionTracker/figures/final.png)
 
 First, we will need to create an empty list-view
 
@@ -31,7 +31,7 @@ Next, we will add the list-divider, the blue area at the top of the page in the 
 
 This produces the following image, which is not quite what we were looking for.
  
-![Nutrition Tracking App - list-divider 1](http://github.rim.net/jasscott/jQuery-Mobile-Samples/raw/NutritionTut/NutritionTracker/figures/list-divider.png)
+![Nutrition Tracking App - list-divider 1](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/NutritionTracker/figures/list-divider.png)
 
 To fix this we must add some custom classes.
 
@@ -70,7 +70,7 @@ Now apply the new classes to the elements.
 
 We now have our list-divider looking correctly. 
 
-![Nutrition Tracking App - list-divider 2](http://github.rim.net/jasscott/jQuery-Mobile-Samples/raw/NutritionTut/NutritionTracker/figures/final-list-divider.png)
+![Nutrition Tracking App - list-divider 2](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/NutritionTracker/figures/final-list-divider.png)
 
 Now, we must add a list item. It will follow the same structure as our list-divider.
 
