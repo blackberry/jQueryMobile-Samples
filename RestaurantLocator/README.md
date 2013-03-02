@@ -47,7 +47,7 @@ Also, to any ```p```, jQuery Mobile will apply ```ui-li-desc```.
 
 This produces the below image which has all the information we have but but no visual appeal.
 
-![Restaurant Locator App - Semantic List Item](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/RestaurantLocator/figures/list-item-noFormatting.png)
+![Restaurant Locator App - Semantic List Item](https://github.com/blackberry/jQueryMobile-Samples/raw/master/RestaurantLocator/figures/list-item-noFormatting.png)
 
 Lets change things by moving the distance, price, rating and reviews information to the right.
 We do that placing each of them in a ```div``` with the class ```ui-li-aside```.
@@ -70,7 +70,7 @@ We do that placing each of them in a ```div``` with the class ```ui-li-aside```.
 ```
 Already looking better, but still more work to do.
 
-![Restaurant Locator App - aside](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/RestaurantLocator/figures/list-item-aside.png)
+![Restaurant Locator App - aside](https://github.com/blackberry/jQueryMobile-Samples/raw/master/RestaurantLocator/figures/list-item-aside.png)
 
 Next we will replace "3 stars" with 3 actual stars.
 This will only work in jQuery Mobile 1.1.1+
@@ -107,7 +107,7 @@ html:
     </ul>
 ```
 
-![Restaurant Locator App - stars](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/RestaurantLocator/figures/list-item-withStars.png)
+![Restaurant Locator App - stars](https://github.com/blackberry/jQueryMobile-Samples/raw/master/RestaurantLocator/figures/list-item-withStars.png)
 
 Currently the list item is read-only and not selectable.
 Next, we will make the list items selectable so that the user can get more information about the restaurant.
@@ -132,7 +132,7 @@ To do this, we wrap the entire contents of the list item with an ```a```.
     </ul>
 ```
 
-![Restaurant Locator App - Clickable](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/RestaurantLocator/figures/list-item-clickable.png)
+![Restaurant Locator App - Clickable](https://github.com/blackberry/jQueryMobile-Samples/raw/master/RestaurantLocator/figures/list-item-clickable.png)
 
 That is it for jQuery Mobile specific tricks for this tutorial. Lets clean the rest up with standard html and css.
 
@@ -186,7 +186,7 @@ Todo:
 
 Our final product:
 
-![Restaurant Locator App - Clickable](https://github.com/blackberry/jQuery-Mobile-Samples/raw/master/RestaurantLocator/figures/list-item-final.png)
+![Restaurant Locator App - Clickable](https://github.com/blackberry/jQueryMobile-Samples/raw/master/RestaurantLocator/figures/list-item-final.png)
 
-The full complete source is available at https://github.com/blackberry/jQuery-Mobile-Samples/tree/master/RestaurantLocator
+The full complete source is available at https://github.com/blackberry/jQueryMobile-Samples/tree/master/RestaurantLocator
 
